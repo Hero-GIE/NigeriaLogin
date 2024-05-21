@@ -1,0 +1,65 @@
+/* .glass{
+    @apply h-5/6 w-5/6;
+}
+
+.profile_img{
+    @apply w-40 cursor-pointer;
+    margin-right: 20px;
+}
+
+.textbox{
+    @apply border-0  rounded-xl w-3/4 shadow-sm left-12;
+    @apply focus:outline-none;
+} 
+/* .textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg left-14 ;
+    @apply focus:outline-none;
+} */
+
+/* .btn{
+    @apply border bg-blue-500 w-2/3 py-2.5 rounded-lg text-gray-50 text-xl shadow-sm text-center ;
+    margin-left: 67px; 
+}
+
+.btn:hover{
+    background-color: #ff6a6a;
+} */ 
+
+.glass {
+    height: 83.333333%;
+    width: 83.333333%;
+    @apply mx-auto;
+}
+
+.profile_img {
+    width: 10rem;
+    height: 10rem;
+    @apply mx-auto;
+}
+
+.textbox {
+    border: 0;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    font-size: 1rem;
+    @apply text-center;
+}
+
+.btn {
+    background-color: #3b82f6;
+    width: 100%;
+    padding: 0.625rem;
+    border-radius: 0.75rem;
+    color: #f9fafb;
+    font-size: 1.25rem;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #ef4444;
+}
+

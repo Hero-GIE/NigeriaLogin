@@ -1,0 +1,100 @@
+/* 
+.glass{
+    background: rgba(241, 241, 241, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 4px 30px rgba(0, 0, 0, 0.15), 0 4px 50px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(176, 176, 176, 0.3);
+    @apply border-4 border-gray-50 shrink-0 h-[600px] w-[30%] rounded-3xl py-20 px-7 min-w-max;
+}
+
+
+.profile_img{
+    @apply border-2 border-gray-100 w-[150px] rounded-full shadow-xl cursor-pointer;
+    @apply hover:border-gray-200;
+}
+
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg left-12 ;
+    @apply focus:outline-none;
+}
+
+.btn{
+    @apply border bg-blue-500 w-2/3 py-2.5 rounded-lg text-gray-50 text-xl shadow-sm text-center ;
+    margin-left: 64px;
+}
+
+.btn:hover{
+    background-color: #ff6a6a;
+}
+
+input[type='file']{
+    display: none;
+}
+
+.smallInput {
+    width: 60px; 
+  }
+
+  .fixedSize{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  } */
+  .glass {
+    background: rgba(241, 241, 241, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2), 0 4px 30px rgba(0, 0, 0, 0.15), 0 4px 50px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(176, 176, 176, 0.3);
+    margin: auto;
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    height: 85%; /* Add this line */
+    display: flex; /* Add this line */
+    flex-direction: column; /* Add this line */
+    justify-content: center; 
+  }
+  
+
+.profile_img {
+    border: 2px solid #f5f5f5;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    @apply mx-auto;
+}
+
+.textbox {
+    border: 0;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    font-size: 1rem;
+    @apply text-center;
+}
+
+.btn {
+    background-color: #3b82f6;
+    width: 100%;
+    padding: 0.625rem;
+    border-radius: 0.75rem;
+    color: #f9fafb;
+    font-size: 1.25rem;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #ef4444;
+}
+
+input[type='file'] {
+    display: none;
+}
